@@ -14,4 +14,23 @@ public final class NumberUtils {
         }
         return true;
     }
+    /**
+ * Calculates the greatest common divisor of two integers.
+ *
+ * @param a the first integer
+ * @param b the second integer
+ * @return the greatest common divisor
+ */
+public static int gcd(int a, int b) {
+    a = Math.abs(a);
+    b = Math.abs(b);
+
+    while (b != 0) {
+        int remainder = a % b;
+        a = b;
+        b = remainder;
+    }
+
+    return a;
+}
 }
