@@ -51,6 +51,7 @@ Replace `YOUR-USERNAME` with your GitHub username.
 - `StringUtils.isPalindrome(String)` — checks a string while ignoring letter case and non-alphanumeric characters.
 - `StringUtils.reverse(String)` — reverses a string by Unicode code points.
 - `NumberUtils.isPrime(int)` — checks whether an integer is prime.
+- `NumberUtils.getFibonacci(int)` — returns the n-th Fibonacci number as a BigInteger, or throws an IllegalArgumentException if n is negative.
 - `ArrayUtils.binarySearch(int[], int)` — searches a sorted array and returns the matching index or `-1`.
 
 ## Contributing
